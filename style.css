@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'GG_Sans'; 
+    src: url('fonts/GG_Sans_Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;} 
+/* @font-face { font-family: 'GG_Sans_Bold'; font-weight: bold; src: url('fonts/GG_Sans_Bold.ttf') format('truetype'); } */
+body {
+    margin: 0;
+}
+#header { 
+    font-family: 'GG_Sans', sans-serif;
+    color: darkgreen; 
+    font-size:40px;
+    text-align: center;    
+    background-color: white;
+    margin-top: -25px;
+    padding: 10px;
+
+}
+#body { 
+    font-family: 'GG_Sans', sans-serif; 
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+footer {
+    font-family: 'GG_Sans', sans-serif;
+    color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+body {
+    background-color: darkgreen
+}
