@@ -1,38 +1,47 @@
 @font-face {
-    font-family: 'GG_Sans'; 
-    src: url('fonts/GG_Sans_Regular.ttf') format('truetype'); 
+    font-family: 'Buahaus_Demi'; 
+    src: url('fonts/Bauhaus Demi.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;} 
-/* @font-face { font-family: 'GG_Sans_Bold'; font-weight: bold; src: url('fonts/GG_Sans_Bold.ttf') format('truetype'); } */
+@font-face {
+    font-family: 'Inter_Regular'; 
+    src: url('fonts/Inter Regular.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;} 
+@font-face {
+    font-family: 'Inter_Bold'; 
+    src: url('fonts/Inter Bold.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;} 
 body {
     margin: 0;
 }
 #header { 
-    font-family: 'GG_Sans', sans-serif;
-    color: darkgreen; 
+    font-family: 'Buahaus_Demi', sans-serif;
+    color: white; 
     font-size:40px;
     text-align: center;    
-    background-color: white;
+    background-color: #1A1A1A;
     margin-top: -25px;
     padding: 10px;
 
 }
 #body { 
-    font-family: 'GG_Sans', sans-serif; 
+    font-family: 'Inter_Regular', sans-serif; 
     color: white; 
     font-size: 20px;
     text-align: center;
     margin-top: 15px;
 }
 footer {
-    font-family: 'GG_Sans', sans-serif;
-    color: darkgreen;
+    font-family: 'Inter_Bold', sans-serif;
+    color: white;
     font-size: 20px;
     text-align: center;
-    background-color: white;
+    background-color: #1A1A1A;
     padding: 10px;
     margin-top: 15px;
 }
 body {
-    background-color: darkgreen
+    background-color: #262626
 }
