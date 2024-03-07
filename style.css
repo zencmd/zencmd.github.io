@@ -74,6 +74,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 25px;    
+    overflow-x: auto;
 }
 .flex-item img {
     max-width: 300px;
@@ -116,10 +117,6 @@ p {
   .sticky + .content {
     padding-top: 102px;
   }
-
-  a:hover {
-    color: #ffffff; /* Change color on hover */
-  }
-  a:visited {
-    color: #ffffff; /* Change color of visited links */
+  a {
+    color: #ffffff
   }
