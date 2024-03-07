@@ -77,13 +77,11 @@ footer {
     overflow-x: auto;
 }
 .flex-item img {
-    max-width: 300px;
-    margin: auto
+    max-width: 250px;
 }
 .flex-item {
-    max-width: 300px;
+    max-width: 250px;
     padding: 10px;
-    margin: auto
 }
 p {
     font-family: 'Trajan_Regular', sans-serif; 
