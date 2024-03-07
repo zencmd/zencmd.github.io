@@ -81,7 +81,8 @@ footer {
 }
 .flex-item {
     max-width: 300px;
-    padding: 10px
+    padding: 10px;
+    justify-content: center;
 }
 p {
     font-family: 'Trajan_Regular', sans-serif; 
