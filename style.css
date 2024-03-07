@@ -29,9 +29,25 @@ body {
     top: 0;
     z-index: 1000; /* Ensure the header stays above other content */
 }
-h1 {
+#header2 { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
+    font-size:40px;
+    text-align: center;    
+    background-color: #1A1A1A;
+    padding: 10px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+}
+#header2 p {
+    font-size: 15px;
+    margin-top: 0px;
+}
+h1 {
+    font-family: 'Trajan_Bold', sans-serif;
+    color: white;
     font-size: 40px;
     text-align: center;
     margin-bottom: -5px;
@@ -99,4 +115,11 @@ p {
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 102px;
+  }
+
+  a:hover {
+    color: #ffffff; /* Change color on hover */
+  }
+  a:visited {
+    color: #ffffff; /* Change color of visited links */
   }
