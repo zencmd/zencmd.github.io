@@ -13,6 +13,7 @@
     src: url('fonts/Inter Bold.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;} 
+
 body {
     margin: 0;
     background-color: #262626;
@@ -74,7 +75,12 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 25px;    
-    overflow-x: auto;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        justify-content: start;
+    }
 }
 .flex-item img {
     max-width: 250px;
@@ -112,9 +118,8 @@ p {
     top: 0;
     width: 100%
   }
-  
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+.sticky + .content {
     padding-top: 102px;
   }
   a {
