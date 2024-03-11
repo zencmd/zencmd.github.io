@@ -73,8 +73,14 @@ footer {
 } 
 .flex-container {
     display: flex;
-    justify-content: center;
     padding-top: 25px;    
+    overflow-x: auto;
+}
+.flex-container .flex-item:first-child {
+    margin-left: auto;
+}
+.flex-container .flex-item:last-child {
+    margin-right: auto;
 }
 .flex-item img {
     max-width: 250px;
