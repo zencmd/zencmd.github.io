@@ -12,19 +12,7 @@ body {
     margin: 0;
     background-color: #262626;
 }
-#header { 
-    font-family: 'Trajan_Bold', sans-serif;
-    color: white; 
-    font-size:50px;
-    text-align: center;    
-    background-color: #1A1A1A;
-    padding: 10px;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Ensure the header stays above other content */
-}
-#header2 { 
+#header, #header2 { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
     font-size:50px;
@@ -132,5 +120,5 @@ a {
 }
 a:hover p {
     font-family: 'Trajan_Bold', sans-serif;
-    font-size: 14px !important;
+    margin-top: -1px !important;
 }
