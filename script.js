@@ -1,2 +1,4 @@
-console.log('Script Works')
-// When the user scrolls the page, execute myFunction
+const MAX = 57;
+let actual = MAX - 13;
+let percentage = actual / MAX;
+console.log(percentage);
