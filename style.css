@@ -15,7 +15,7 @@ body {
 #header { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
-    font-size:40px;
+    font-size:50px;
     text-align: center;    
     background-color: #1A1A1A;
     padding: 10px;
@@ -27,7 +27,7 @@ body {
 #header2 { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
-    font-size:40px;
+    font-size:50px;
     text-align: center;    
     background-color: #1A1A1A;
     padding: 10px;
@@ -43,7 +43,7 @@ body {
 h1 {
     font-family: 'Trajan_Bold', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: -5px;
     
@@ -64,6 +64,9 @@ footer {
     padding: 10px;
     margin-top: 15px;
     justify-content: end;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    bottom: 0;
 } 
 .flex-container {
     display: flex;
@@ -124,7 +127,10 @@ p {
 .sticky + .content {
     padding-top: 102px;
 }
-  a {
+a {
     color: #ffffff
 }
-
+a:hover p {
+    font-family: 'Trajan_Bold', sans-serif;
+    font-size: 14px !important;
+}
