@@ -3,7 +3,7 @@ const muteButton = document.getElementById("muteButton");
 
 var unmuteIcon = '<i class="fas fa-volume-up"></i>'
 var muteIcon = '<i class="fas fa-volume-mute"></i>'
-
+audio.muted = false;
 function toggleMute() {
   if (audio.muted) {
     audio.muted = false;
