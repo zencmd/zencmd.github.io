@@ -1,4 +1,4 @@
-const audio = document.getElementById("myAudio");
+const audio = document.getElementById("myaudio");
 const muteButton = document.getElementById("muteButton");
 
 var unmuteIcon = '<i class="fas fa-volume-up"></i>'
