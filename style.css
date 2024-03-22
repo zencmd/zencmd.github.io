@@ -8,16 +8,22 @@
     src: url('fonts/Trajan Regular.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;}  
+@font-face {
+    font-family: 'News_Gothic_Bold'; 
+    src: url('fonts/News Gothic Bold.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;} 
 body {
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
     margin: 0;
-    background-color: #262626;
 }
+
 #header, #header2 { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
     font-size:50px;
     text-align: center;    
-    background-color: #1A1A1A;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -37,8 +43,10 @@ h1 {
     
 }
 #body { 
-    font-family: 'Trajan_Regular', sans-serif; 
-    color: white; 
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'News_Gothic_Bold', sans-serif; 
+    color: #FFE81F; 
     font-size: 20px;
     text-align: center;
     margin-top: 15px;
@@ -48,7 +56,7 @@ footer {
     color: white;
     font-size: 20px;
     text-align: center;
-    background-color: #1A1A1A;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin-top: 15px;
     justify-content: end;
@@ -60,6 +68,7 @@ footer {
     display: flex;
     padding-top: 25px;    
     overflow-x: auto;
+
 }
 .flex-container .flex-item:first-child {
     margin-left: auto;
@@ -115,4 +124,9 @@ a {
 a:hover p {
     font-family: 'Trajan_Bold', sans-serif;
     margin-top: -1px !important;
+}
+audio {
+    position: absolute;
+    width: 0;
+    height: 0;
 }
