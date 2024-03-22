@@ -3,13 +3,12 @@ const muteButton = document.getElementById("muteButton");
 
 var unmuteIcon = '<i class="fas fa-volume-up"></i>'
 var muteIcon = '<i class="fas fa-volume-mute"></i>'
-audio.play()
 function toggleMute() {
   if (audio.muted) {
     audio.muted = false;
     muteButton.innerHTML = `<i class="fas fa-volume-up"></i>`;
   } else {
-    audio.muted = true;
+    audio.muted  = true;
     muteButton.innerHTML = `<i class="fas fa-volume-off"></i>`;
   }
 }
@@ -17,3 +16,10 @@ function toggleMute() {
 
 
 muteButton.addEventListener("click", toggleMute);
+
+
+function play() {
+  audio.play();
+}
+
+body.addEventListener('mousemove', play);
