@@ -1,6 +1,6 @@
 const audio = document.getElementById("myaudio");
 const muteButton = document.getElementById("muteButton");
-
+const pages = document.getElementById("pagesButton");
 var unmuteIcon = '<i class="fas fa-volume-up"></i>'
 var muteIcon = '<i class="fas fa-volume-mute"></i>'
 function toggleMute() {
@@ -18,7 +18,7 @@ audio.addEventListener('ended', function() {
   audio.play();
 });
 window.onload = function() {
-  onmousemove = (event) => {
+  onmouseover = (event) => {
     audio.play()
   };
 };

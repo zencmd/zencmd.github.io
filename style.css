@@ -21,7 +21,7 @@ body {
 #header, #header2 { 
     font-family: 'Trajan_Bold', sans-serif;
     color: white; 
-    font-size:50px;
+    font-size: 50px;
     text-align: center;    
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
@@ -134,7 +134,4 @@ button {
     border: none;
     cursor: pointer;
     padding: 10px;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    z-index: 1000; /* Ensure the header stays above other content */
   }
