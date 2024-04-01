@@ -17,9 +17,12 @@ audio.addEventListener('ended', function() {
   audio.currentTime = 0;
   audio.play();
 });
-
+window.onload = function() {
+  onmousemove = (event) => {
+    audio.play()
+  };
+};
 audio.muted = true;
-audio.play()
 audio.muted = false;
 
 muteButton.addEventListener("click", toggleMute);
