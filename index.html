@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    The Jedi Order
+    The Galactic Siege
   </title>
-
+  
   <link 
   rel="stylesheet" 
   type="text/css" 
@@ -22,28 +22,41 @@
 <body>
 
 <div id="header2">
-    <div>The Jedi Order</div>
-</div>
+    <div>The Galactic Siege</div>
+    <div id="dropdown-content">
+      <div class="dropdown-item" id="dropdownthing"><a href="templesecurity.html">DOCS</div></a>
+      <div class="dropdown-item" id="dropdownthing"><a href="templesecurity.html">LINKS</div></a>
+      <div class="dropdown-item" id="dropdownthing"><a href="templesecurity.html">LORE</div></a>
+    </div>
+    <button id="dropdown"><i class="fas fa-chevron-down"></i></button>
+    </div>
 
+</div>
 <div id="body">
-  In the ongoing battle between LIGHT and <span style="color: #B70020">DARK</span>, the JEDI remain a symbol of hope and resilience. They stand up against the <span style="color: #B70020">SITH</span> and continue to remind the galaxy that even in these <span style="color: #B70020">DARK TIMES</span>, the FORCE will be with you . . .
+  In the ongoing battle between LIGHT and <span style="color: #B70020">DARK</span>, the REBELLION continues to fight back against the tyranical <span style="color: #B70020">GALACTIC EMPIRE</span> and remains a symbol of hope and resilience. They continue to remind the galaxy that even in these <span style="color: #B70020">DARK TIMES</span>, the FORCE will be with you . . .
 </div>
   <div class="header">
-    <h1>Councils</h1>
+    <h1>Factions</h1>
   </div>
 <div class="flex-container">
-  <div class="flex-item"><a href="highcouncil.html"><img src="images/icons/highcouncil.png"></a></div>
-  <div class="flex-item"><a href="knowledge.html"><img src="images/icons/knowledge.png"></a></div>
-  <div class="flex-item"><a href="reassignment.html"><img src="images/icons/reassignment.png"></a></div>
-  <div class="flex-item"><a href="reconciliation.html"><img src="images/icons/reconciliation.png"></a></div>
-</div>
+  <div class="flex-item">
+    <a href="empire.html"><img src="images/icons/empirelogo.png" class="planet", id="planet" alt="1">
+    <img src="images/icons/empiretext.png" class="planettext" id="planettext" alt="1"></a>
+  </div>
+  <div class="flex-item">
+    <a href="empire.html"><img src="images/icons/rebellogo.png" class="planet", id="planet" alt="1">
+    <img src="images/icons/rebeltext.png" class="planettext" id="planettext" alt="1"></a>
+  </div>
 
 </div>
 <div class="header">
-  <h1>Pathways</h1>
+  <h1 class ="planetsheader">Planets</h1>
 </div>
 <div class="flex-container">
-<div class="flex-item"><a href="templesecurity.html"><img src="images/icons/templesecurity.png"></a></div>
+  <div class="flex-item">
+    <a href="templesecurity.html"><img src="images/icons/alderaanplanet.png" class="planet", id="planet" alt="1">
+    <img src="images/icons/alderaantext.png" class="planettext" id="planettext" alt="1"></a>
+  </div>
 </div>
 
 <footer>
@@ -63,6 +76,7 @@
 
 <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
-crossorigin="anonymous" 
+crossorigin="anonymous"></link>
 
 </html>
+
